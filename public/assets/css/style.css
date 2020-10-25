@@ -125,6 +125,12 @@ header nav h1 {
     text-align: center;
 }
 
+.contact h2 {
+    margin-top: 60px;
+    font-size: 3rem;
+    border-bottom: 1px solid #000;
+}
+
 .articles p {
     text-align: center;
     margin-top: -30px;
@@ -160,9 +166,63 @@ header nav h1 {
     color: #000;
     display: flex;
     justify-content: space-between;
-    margin-top: 300px;
+    /* margin-top: 300px; */
 }
 
 #footer .move-up span {
     color: #000;
+}
+
+.columns {
+    margin-top: -120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.row {
+    text-align: center;
+}
+
+.row p {
+    margin-left: 30px;
+}
+
+.form-box {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 0 40px 0;
+    padding: 27px 30px 25px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    border: 0 none;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+    margin-top: 15px;
 }
