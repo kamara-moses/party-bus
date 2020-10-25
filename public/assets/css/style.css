@@ -131,6 +131,12 @@ header nav h1 {
     border-bottom: 1px solid #000;
 }
 
+.about h2 {
+    margin-top: 60px;
+    font-size: 3rem;
+    border-bottom: 1px solid #000;
+}
+
 .articles p {
     text-align: center;
     margin-top: -30px;
@@ -225,4 +231,9 @@ input[type=submit] {
     background: #fff;
     color: #000;
     margin-top: 15px;
+}
+
+.about-row {
+    width: 80%;
+    margin: 0 auto;
 }
